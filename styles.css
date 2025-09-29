@@ -1,0 +1,9 @@
+body {
+    max-width: 1920px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
