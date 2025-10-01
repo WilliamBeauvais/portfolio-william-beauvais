@@ -2,8 +2,267 @@ body {
     max-width: 1920px;
 }
 
+/*Le header*/
+
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #b6ad90;
+    padding: 40px;
+    padding-bottom: 80px;
 }
 
+.nom {
+    color: #333d29;
+    font-size: 300%;
+}
+
+.nav-header {
+    background-color: #a4ac86;
+    display: flex;
+    align-items: center;
+    padding: 2vw 4vw;
+    border-radius: 300px;
+    font-size: 3vw;
+}
+
+.nav-option-header {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #333d29;
+}
+
+.maison-header {
+    width: 7vw;
+}
+
+/*L'introduction*/
+
+.intro { 
+    width: 100%;
+   background-color: #b6ad90; 
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+}
+
+.autoportrait {
+    width: 45%;
+}
+
+.droite {
+    width: 50%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-titre {
+    width: 100%;
+}
+
+.motivation {
+    width: 70%;
+    padding-bottom: 5%;
+    color: #333d29;
+    font-size: 1.7vw;
+}
+
+.fleurs {
+    display: flex;
+}
+
+.fleur-gauche {
+     width: 35%;
+     height: 35%;
+     padding-right: 14%;
+}
+
+.fleur-droite {
+     width: 70%;
+     height: 70%;
+}
+
+/*La citation*/
+
+.citation {
+    background-color: #333d29;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citation-texte {
+    font-size: 5vw;
+    color: #A4AC86;
+}
+
+/*La bannière de logiciels animé*/
+
+.logiciels {
+    background-color: #b6ad90;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logiciels-anim {
+    width: 95%;
+}
+
+/*La section qui montre 3 projets*/
+
+.projets-apercu {
+    background-color: #333d29;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-projets {
+    margin-left: auto;
+    margin-right: 60px;
+    background-color: #A4AC86;
+    display: flex;
+    align-items: center;
+    padding: 40px 80px 40px 80px;
+    border: none;
+    border-radius: 300px;
+    font-size: 200%;
+    color: #333d29;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.quelques {
+    color: #b6ad90;
+    font-size: 5vw;
+    padding: 60px;
+}
+
+.img-apercu {
+    width: 30vw;
+    height: 30vw;
+}
+
+.lion {
+     object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.caroussel {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/*Le mini à propos*/
+
+.apropos-apercu {
+    background-color: #b6ad90;
+}
+
+.presentation-apercu {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    padding-top: 120px;
+}
+
+.moi-apercu {
+    width: 45%;
+}
+
+.texte-presentation-apercu {
+    width: 45%;
+    font-size: 2vw;
+    color: #582F0E;
+    margin: 0;
+}
+
+.btn-apropos {
+    margin-left: auto;
+    margin-right: 60px;
+    background-color: #A68A64;
+    display: flex;
+    align-items: center;
+    padding: 40px 80px 40px 80px;
+    border: none;
+    border-radius: 300px;
+    font-size: 200%;
+    color: #582F0E;
+    margin-bottom: 60px;
+}
+
+.fleche {
+    padding-left: 40px;
+}
+
+.gallerie-photos-apercu {
+  width: 100%;
+  height: 350px; 
+  background: url("img/photos-ligne.png") repeat-x;
+  animation: scroll-background 25s linear infinite;
+}
+
+@keyframes scroll-background {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 152% 0;
+  }
+}
+
+/*Le footer*/
+
+.footer {
+    background-color: #A68A64;
+    color: #582F0E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.merci {
+    font-size: 8vw;
+}
+
+.contact {
+    font-size: 2vw;
+}
+
+.infos {
+    font-size: 3vw;
+    padding-bottom: 60px;
+}
+
+.nav-footer {
+    background-color: #b6ad90;
+    display: flex;
+    align-items: center;
+    padding: 2vw 4vw;
+    border-radius: 300px;
+    font-size: 3vw;
+}
+
+.nav-option-footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #582F0E;
+}
+
+.maison-footer {
+    width: 7vw;
+}
