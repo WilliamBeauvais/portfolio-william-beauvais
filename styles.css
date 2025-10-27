@@ -15,7 +15,11 @@ body {
 
 .nom {
     color: #333d29;
-    font-size: 300%;
+    font-size: 400%;
+    text-decoration: none;
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav-header {
@@ -32,6 +36,9 @@ body {
     padding-left: 20px;
     text-decoration: none;
     color: #333d29;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .maison-header {
@@ -40,12 +47,12 @@ body {
 
 /*L'introduction*/
 
-.intro { 
+.intro {
     width: 100%;
-   background-color: #b6ad90; 
-   display: flex;
-   align-items: end;
-   justify-content: space-between;
+    background-color: #b6ad90;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
 }
 
 .autoportrait {
@@ -69,6 +76,9 @@ body {
     padding-bottom: 5%;
     color: #333d29;
     font-size: 1.7vw;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fleurs {
@@ -76,14 +86,14 @@ body {
 }
 
 .fleur-gauche {
-     width: 35%;
-     height: 35%;
-     padding-right: 14%;
+    width: 35%;
+    height: 35%;
+    padding-right: 14%;
 }
 
 .fleur-droite {
-     width: 70%;
-     height: 70%;
+    width: 70%;
+    height: 70%;
 }
 
 /*La citation*/
@@ -98,8 +108,11 @@ body {
 }
 
 .citation-texte {
-    font-size: 5vw;
+    font-size: 4vw;
     color: #A4AC86;
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*La bannière de logiciels animé*/
@@ -140,12 +153,18 @@ body {
     color: #333d29;
     margin-top: 60px;
     margin-bottom: 60px;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .quelques {
     color: #b6ad90;
     font-size: 5vw;
     padding: 60px;
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .img-apercu {
@@ -154,7 +173,7 @@ body {
 }
 
 .lion {
-     object-fit: cover;
+    object-fit: cover;
     object-position: 0% 0%;
 }
 
@@ -186,6 +205,9 @@ body {
     font-size: 2vw;
     color: #582F0E;
     margin: 0;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn-apropos {
@@ -200,6 +222,9 @@ body {
     font-size: 200%;
     color: #582F0E;
     margin-bottom: 60px;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fleche {
@@ -207,19 +232,20 @@ body {
 }
 
 .gallerie-photos-apercu {
-  width: 100%;
-  height: 350px; 
-  background: url("img/photos-ligne.png") repeat-x;
-  animation: scroll-background 25s linear infinite;
+    width: 100%;
+    height: 350px;
+    background: url("img/photos-ligne.png") repeat-x;
+    animation: scroll-background 25s linear infinite;
 }
 
 @keyframes scroll-background {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 152% 0;
-  }
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 152% 0;
+    }
 }
 
 /*Le footer*/
@@ -236,15 +262,24 @@ body {
 
 .merci {
     font-size: 8vw;
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .contact {
     font-size: 2vw;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .infos {
     font-size: 3vw;
     padding-bottom: 60px;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav-footer {
@@ -261,8 +296,55 @@ body {
     padding-left: 20px;
     text-decoration: none;
     color: #582F0E;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .maison-footer {
     width: 7vw;
+}
+
+/*La page À propos*/
+
+.apropos {
+    background-color: #b6ad90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+
+.moi {
+    width: 45%;
+}
+
+.texte-presentation {
+    width: 45%;
+    font-size: 2vw;
+    color: #582F0E;
+    margin: 0;
+    font-family: "loos-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titre {
+    color: #333d29;
+    font-size: 5vw;
+    padding: 60px;
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gallerie-photos {
+    padding-bottom: 200px;
+    padding-top: 100px;
 }
