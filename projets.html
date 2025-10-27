@@ -1,70 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio William Beauvais</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/knq4tjk.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio William Beauvais</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://use.typekit.net/knq4tjk.css">
-</head>
-
-<body>
-  <!-- Le header qui est sur toutes les pages -->
-  <div class="header">
-    <a class="nom" href="accueil.html">William Beauvais</a>
-    <!-- La naviguation qui est dans le header et le footer -->
-    <div class="nav-header">
-      <a href="projets.html" class="nav-option-header">Projets</a>
-      <a href="apropos.html" class="nav-option-header">À propos</a>
-      <a href="accueil.html" class="nav-accueil">
-        <img src="img/maison-header.png" alt="accueil" class="maison-header">
-      </a>
+  <body>
+    <!-- Le header qui est sur toutes les pages -->
+    <div class="header">
+      <a class="nom" href="accueil.html">William Beauvais</a>
+      <!-- La naviguation qui est dans le header et le footer -->
+      <div class="nav-header">
+        <a href="projets.html" class="nav-option-header">Projets</a>
+        <a href="apropos.html" class="nav-option-header">À propos</a>
+        <a href="accueil.html" class="nav-accueil">
+          <img
+            src="img/maison-header.png"
+            alt="accueil"
+            class="maison-header"
+          />
+        </a>
+      </div>
     </div>
-  </div>
+    <div class="mesprojets">
+      <h1 class="titre">Mes projets</h1>
 
-    <h1 class="titre">Mes projets</h1>
+      <!-- Composante vue pour filtrer les différents types de projets -->
+      <div class="filtres">
+        <a class="filtre filtre-actif">Tous les projets</a>
+        <a class="filtre">Design graphique</a>
+        <a class="filtre">3D</a>
+        <a class="filtre">Vidéo</a>
+        <a class="filtre">Dessin</a>
+      </div>
 
-    <!-- Composante vue pour filtrer les différents types de projets -->
-    <div class="filtres">
-        <button class="filtres">Tous les projets</button>
-        <button class="filtres">Design graphique</button>
-        <button class="filtres">3D</button>
-        <button class="filtres">Vidéo</button>
-        <button class="filtres">Dessin</button>
-    </div>
-
-    <!-- Toutes les cartes des projets -->
-     <div class="toutlesprojets">
+      <!-- Toutes les cartes des projets -->
+      <div class="toutlesprojets">
+        <a href="delusion.html" class="projet-carte carte-femme">
+          <img src="img/la_femme.jpg" alt="Projet La femme" class="img-carte" />
+          <p class="titre-carte">La femme</p>
+        </a>
         <a href="femme.html" class="projet-carte carte-femme">
-        <img src="" alt="Projet La femme" class="img-carte">
-        <p class="titre-carte">La femme</p>
-    </a>
-    <a href="femme.html" class="projet-carte carte-femme">
-        <img src="" alt="Projet La femme" class="img-carte">
-        <p class="titre-carte">La femme</p>
-    </a>
-    <a href="femme.html" class="projet-carte carte-femme">
-        <img src="" alt="Projet La femme" class="img-carte">
-        <p class="titre-carte">La femme</p>
-    </a>
-     </div>
-    
+          <img src="img/la_femme.jpg" alt="Projet La femme" class="img-carte" />
+          <p class="titre-carte">La femme</p>
+        </a>
+        <a href="femme.html" class="projet-carte carte-femme">
+          <img src="img/la_femme.jpg" alt="Projet La femme" class="img-carte" />
+          <p class="titre-carte">La femme</p>
+        </a>
+      </div>
+    </div>
 
     <!-- Le footer ouvre la porte à ce que les gens me contact et permet la navigation -->
     <div class="footer">
-        <h1 class="merci">Merci</h1>
-        <p class="contact">N'hésitez pas à me contacter pour des projets ou n'importe qu'elles autres raisons.</p>
-        <p class="infos">William Beauvais - wbeauvais19@gmail.com - 514-889-4575</p>
-        <div class="nav-footer">
-            <a href="projets.html" class="nav-option nav-option-actif">Projets</a>
-            <a href="apropos.html" class="nav-option">À propos</a>
-            <a href="accueil.html" class="nav-accueil"></a>
-        </div>
+      <h1 class="merci">Merci</h1>
+      <p class="contact">
+        N'hésitez pas à me contacter pour des projets ou n'importe qu'elles
+        autres raisons.
+      </p>
+      <p class="infos">
+        William Beauvais - wbeauvais19@gmail.com - 514-889-4575
+      </p>
+      <div class="nav-footer">
+        <a href="projets.html" class="nav-option-footer">Projets</a>
+        <a href="apropos.html" class="nav-option-footer">À propos</a>
+        <a href="accueil.html" class="nav-accueil nav-accueil-actif"
+          ><img src="img/maison-footer.png" alt="accueil" class="maison-footer"
+        /></a>
+      </div>
     </div>
 
-
     <script src="scripts.js"></script>
-</body>
-
+  </body>
 </html>

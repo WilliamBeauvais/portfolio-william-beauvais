@@ -1,350 +1,499 @@
 body {
-    max-width: 1920px;
+  max-width: 1920px;
 }
 
 /*Le header*/
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #b6ad90;
-    padding: 40px;
-    padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6ad90;
+  padding: 40px;
+  padding-bottom: 80px;
 }
 
 .nom {
-    color: #333d29;
-    font-size: 400%;
-    text-decoration: none;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: #333d29;
+  font-size: 400%;
+  text-decoration: none;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav-header {
-    background-color: #a4ac86;
-    display: flex;
-    align-items: center;
-    padding: 2vw 4vw;
-    border-radius: 300px;
-    font-size: 3vw;
+  background-color: #a4ac86;
+  display: flex;
+  align-items: center;
+  padding: 2vw 4vw;
+  border-radius: 300px;
+  font-size: 3vw;
 }
 
 .nav-option-header {
-    padding-right: 20px;
-    padding-left: 20px;
-    text-decoration: none;
-    color: #333d29;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #333d29;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .maison-header {
-    width: 7vw;
+  width: 7vw;
 }
 
 /*L'introduction*/
 
 .intro {
-    width: 100%;
-    background-color: #b6ad90;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
+  width: 100%;
+  background-color: #b6ad90;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 
 .autoportrait {
-    width: 45%;
+  width: 45%;
 }
 
 .droite {
-    width: 50%;
-    padding-right: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 50%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .portfolio-titre {
-    width: 100%;
+  width: 100%;
 }
 
 .motivation {
-    width: 70%;
-    padding-bottom: 5%;
-    color: #333d29;
-    font-size: 1.7vw;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  width: 70%;
+  padding-bottom: 5%;
+  color: #333d29;
+  font-size: 1.7vw;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .fleurs {
-    display: flex;
+  display: flex;
 }
 
 .fleur-gauche {
-    width: 35%;
-    height: 35%;
-    padding-right: 14%;
+  width: 35%;
+  height: 35%;
+  padding-right: 14%;
 }
 
 .fleur-droite {
-    width: 70%;
-    height: 70%;
+  width: 70%;
+  height: 70%;
 }
 
 /*La citation*/
 
 .citation {
-    background-color: #333d29;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #333d29;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .citation-texte {
-    font-size: 4vw;
-    color: #A4AC86;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-size: 4vw;
+  color: #a4ac86;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*La bannière de logiciels animé*/
 
 .logiciels {
-    background-color: #b6ad90;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #b6ad90;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logiciels-anim {
-    width: 95%;
+  width: 100%;
+  height: 50%;
+  background: url("img/logiciels.png") repeat-x;
+  animation: scroll-background 10s linear infinite;
 }
 
 /*La section qui montre 3 projets*/
 
 .projets-apercu {
-    background-color: #333d29;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #333d29;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-projets {
-    margin-left: auto;
-    margin-right: 60px;
-    background-color: #A4AC86;
-    display: flex;
-    align-items: center;
-    padding: 40px 80px 40px 80px;
-    border: none;
-    border-radius: 300px;
-    font-size: 200%;
-    color: #333d29;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  margin-left: auto;
+  margin-right: 60px;
+  background-color: #a4ac86;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px 40px 80px;
+  border: none;
+  border-radius: 300px;
+  font-size: 200%;
+  color: #333d29;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-projets:hover {
+  padding: 40px 100px 40px 100px;
 }
 
 .quelques {
-    color: #b6ad90;
-    font-size: 5vw;
-    padding: 60px;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: #b6ad90;
+  font-size: 5vw;
+  padding: 60px;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .img-apercu {
-    width: 30vw;
-    height: 30vw;
+  width: 30vw;
+  height: 30vw;
+}
+
+.delusion {
+  background-image: url(img/delusion.jpg);
+  background-size: contain;
+}
+
+.delusion:hover {
+  background-image: url(img/delusion-hover.png);
+  background-size: contain;
+}
+
+.femme {
+  background-image: url(img/la_femme.jpg);
+  background-size: contain;
+}
+
+.femme:hover {
+  background-image: url(img/femme-hover.png);
+  background-size: contain;
 }
 
 .lion {
-    object-fit: cover;
-    object-position: 0% 0%;
+  background-image: url(img/scene_final.jpg);
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.lion:hover {
+  background-image: url(img/lion-hover.png);
+  background-size: cover;
+  background-position: 0% 0%;
 }
 
 .caroussel {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 /*Le mini à propos*/
 
 .apropos-apercu {
-    background-color: #b6ad90;
+  background-color: #b6ad90;
 }
 
 .presentation-apercu {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-    padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  padding-top: 120px;
 }
 
 .moi-apercu {
-    width: 45%;
+  width: 45%;
 }
 
 .texte-presentation-apercu {
-    width: 45%;
-    font-size: 2vw;
-    color: #582F0E;
-    margin: 0;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  width: 45%;
+  font-size: 2vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn-apropos {
-    margin-left: auto;
-    margin-right: 60px;
-    background-color: #A68A64;
-    display: flex;
-    align-items: center;
-    padding: 40px 80px 40px 80px;
-    border: none;
-    border-radius: 300px;
-    font-size: 200%;
-    color: #582F0E;
-    margin-bottom: 60px;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  margin-left: auto;
+  margin-right: 60px;
+  background-color: #a68a64;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px 40px 80px;
+  border: none;
+  border-radius: 300px;
+  font-size: 200%;
+  color: #582f0e;
+  margin-bottom: 60px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-apropos:hover {
+  padding: 40px 100px 40px 100px;
 }
 
 .fleche {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .gallerie-photos-apercu {
-    width: 100%;
-    height: 350px;
-    background: url("img/photos-ligne.png") repeat-x;
-    animation: scroll-background 25s linear infinite;
+  width: 100%;
+  height: 350px;
+  background: url("img/photos-ligne.png") repeat-x;
+  animation: scroll-background 25s linear infinite;
 }
 
 @keyframes scroll-background {
-    from {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 0 0;
+  }
 
-    to {
-        background-position: 152% 0;
-    }
+  to {
+    background-position: 152% 0;
+  }
 }
 
 /*Le footer*/
 
 .footer {
-    background-color: #A68A64;
-    color: #582F0E;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
+  background-color: #a68a64;
+  color: #582f0e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
 }
 
 .merci {
-    font-size: 8vw;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-size: 8vw;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contact {
-    font-size: 2vw;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-size: 2vw;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .infos {
-    font-size: 3vw;
-    padding-bottom: 60px;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-size: 3vw;
+  padding-bottom: 60px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav-footer {
-    background-color: #b6ad90;
-    display: flex;
-    align-items: center;
-    padding: 2vw 4vw;
-    border-radius: 300px;
-    font-size: 3vw;
+  background-color: #b6ad90;
+  display: flex;
+  align-items: center;
+  padding: 2vw 4vw;
+  border-radius: 300px;
+  font-size: 3vw;
 }
 
 .nav-option-footer {
-    padding-right: 20px;
-    padding-left: 20px;
-    text-decoration: none;
-    color: #582F0E;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #582f0e;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .maison-footer {
-    width: 7vw;
+  width: 7vw;
 }
 
 /*La page À propos*/
 
 .apropos {
-    background-color: #b6ad90;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #b6ad90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .presentation {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
 }
 
 .moi {
-    width: 45%;
+  width: 45%;
 }
 
 .texte-presentation {
-    width: 45%;
-    font-size: 2vw;
-    color: #582F0E;
-    margin: 0;
-    font-family: "loos-compressed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  width: 45%;
+  font-size: 2vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .titre {
-    color: #333d29;
-    font-size: 5vw;
-    padding: 60px;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: #333d29;
+  font-size: 5vw;
+  padding: 60px;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .gallerie-photos {
-    padding-bottom: 200px;
-    padding-top: 100px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  width: 90%;
+}
+
+/*La page Mes projets*/
+
+.mesprojets {
+  background-color: #b6ad90;
+  padding-top: 1px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toutlesprojets {
+  display: flex;
+  gap: 30px;
+}
+
+.img-carte {
+  width: 28vw;
+  height: 28vw;
+}
+
+.filtres {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.filtre {
+  text-decoration: none;
+  font-size: 2vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.filtre-actif {
+  text-decoration: underline;
+}
+
+.projet-carte {
+  background-color: #a4ac86;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titre-carte {
+  text-decoration: none;
+  color: #333d29;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+/*La page d'un projet*/
+
+.unprojet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b6ad90;
+  padding-bottom: 50px;
+}
+
+.desc-img {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.img-projet {
+  width: 45%;
+}
+
+.desc-projet {
+  width: 45%;
+  font-size: 2.5vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logiciel-role {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logi {
+  width: 8vw;
+  margin-right: 30px;
+}
+
+.role {
+  font-size: 2.5vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
