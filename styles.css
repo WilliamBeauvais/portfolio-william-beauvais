@@ -127,9 +127,19 @@ body {
 
 .logiciels-anim {
   width: 100%;
-  height: 50%;
+  height: 2px;
   background: url("img/logiciels.png") repeat-x;
-  animation: scroll-background 10s linear infinite;
+  animation: scroll-logi 25s linear infinite;
+}
+
+@keyframes scroll-logi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 152% 0;
+  }
 }
 
 /*La section qui montre 3 projets*/
@@ -496,4 +506,534 @@ body {
   font-family: "loos-compressed", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*La version mobile*/
+
+@media screen and (max-width: 500px) {
+
+body {
+  max-width: 500px;
+}
+
+/*Le header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6ad90;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.nom {
+  font-size: 150%;
+  margin-right: 20px;
+}
+
+.nav-option-header {
+  text-decoration: none;
+  color: #333d29;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 55px;
+}
+
+.maison-header {
+  width: 7vw;
+}
+
+/*L'introduction*/
+
+.intro {
+  width: 100%;
+  background-color: #b6ad90;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.autoportrait {
+  width: 40%;
+}
+
+.droite {
+  width: 55%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-titre {
+  width: 140%;
+  margin-right: 100px;
+}
+
+.motivation {
+  width: 70%;
+  padding-bottom: 20%;
+  color: #333d29;
+  font-size: 3vw;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fleurs {
+  display: flex;
+}
+
+.fleur-gauche {
+  width: 35%;
+  height: 35%;
+  padding-right: 14%;
+}
+
+.fleur-droite {
+  width: 70%;
+  height: 70%;
+}
+
+/*La citation*/
+
+.citation {
+  background-color: #333d29;
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.citation-texte {
+  font-size: 4vw;
+  color: #a4ac86;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*La bannière de logiciels animé*/
+
+.logiciels {
+  background-color: #b6ad90;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logiciels-anim {
+  width: 100%;
+  height: 210px;
+  background: url("img/logiciels.png") repeat-x;
+  animation: scroll-logi 25s linear infinite;
+}
+
+@keyframes scroll-logi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 150% 0;
+  }
+}
+
+/*La section qui montre 3 projets*/
+
+.projets-apercu {
+  background-color: #333d29;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-projets {
+  margin-left: auto;
+  margin-right: 60px;
+  background-color: #a4ac86;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+  border: none;
+  border-radius: 300px;
+  font-size: 150%;
+  color: #333d29;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quelques {
+  color: #b6ad90;
+  font-size: 6vw;
+  padding: 30px;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-apercu {
+  width: 50vw;
+  height: 50vw;
+}
+
+.delusion {
+  background-image: url(img/delusion.jpg);
+  background-size: contain;
+}
+
+.delusion:hover {
+  background-image: url(img/delusion-hover.png);
+  background-size: contain;
+}
+
+.femme {
+  background-image: url(img/la_femme.jpg);
+  background-size: contain;
+}
+
+.femme:hover {
+  background-image: url(img/femme-hover.png);
+  background-size: contain;
+}
+
+.lion {
+  background-image: url(img/scene_final.jpg);
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.lion:hover {
+  background-image: url(img/lion-hover.png);
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.caroussel {
+  display: flex;
+  width: 200%;
+  justify-content: space-evenly;
+}
+
+/*Le mini à propos*/
+
+.apropos-apercu {
+  background-color: #b6ad90;
+}
+
+.presentation-apercu {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.moi-apercu {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.texte-presentation-apercu {
+  width: 100%;
+  font-size: 5vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-apropos {
+  margin-left: auto;
+  margin-right: 60px;
+  background-color: #a68a64;
+  display: flex;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+  border: none;
+  border-radius: 300px;
+  font-size: 150%;
+  color: #582f0e;
+  margin-bottom: 60px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fleche {
+  padding-left: 40px;
+}
+
+.gallerie-photos-apercu {
+  width: 100%;
+  height: 350px;
+  background: url("img/photos-ligne.png") repeat-x;
+  animation: scroll-background 35s linear infinite;
+}
+
+@keyframes scroll-background {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 152% 0;
+  }
+}
+
+/*Le footer*/
+
+.footer {
+  background-color: #a68a64;
+  color: #582f0e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.merci {
+  font-size: 8vw;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact {
+  font-size: 4vw;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.infos {
+  font-size: 7vw;
+  padding-bottom: 60px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.nav-footer {
+  background-color: #b6ad90;
+  display: flex;
+  align-items: center;
+  padding: 2vw 4vw;
+  border-radius: 300px;
+  font-size: 3vw;
+}
+
+.nav-option-footer {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #582f0e;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.maison-footer {
+  width: 7vw;
+}
+
+/*La page À propos*/
+
+.apropos {
+  background-color: #b6ad90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.moi {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.texte-presentation {
+  width: 100%;
+  font-size: 5vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titre {
+  color: #333d29; 
+  font-size: 8vw;
+  padding: 20px;
+  font-family: "eight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gallerie-photos {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 90%;
+}
+
+/*La page Mes projets*/
+
+.mesprojets {
+  background-color: #b6ad90;
+  padding-top: 1px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toutlesprojets {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.img-carte {
+  width: 70vw;
+  height: 70vw;
+}
+
+.filtres {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.filtre {
+  text-decoration: none;
+  font-size: 6vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.filtre-actif {
+  text-decoration: underline;
+}
+
+.projet-carte {
+  background-color: #a4ac86;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titre-carte {
+  text-decoration: none;
+  color: #333d29;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8vw;
+}
+
+/*La page d'un projet*/
+
+.unprojet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b6ad90;
+  padding-bottom: 50px;
+}
+
+.desc-img {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.img-projet {
+  width: 100%;
+}
+
+.desc-projet {
+  width: 100%;
+  font-size: 5vw;
+  color: #582f0e;
+  margin-top: 50px;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logiciel-role {
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logi {
+  width: 15vw;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.role {
+  font-size: 5vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
