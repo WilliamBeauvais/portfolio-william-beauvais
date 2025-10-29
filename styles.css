@@ -409,8 +409,10 @@ body {
 }
 
 .toutlesprojets {
-  display: flex;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 4vw;
+  width: 90vw;
 }
 
 .img-carte {
@@ -444,6 +446,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.projet-carte:hover {
+  background-color: #333d29;
+  .titre-carte{
+    color: #a4ac86;
+  }
+}
+
+.collab {
+  font-size: 2vw;
+  color: #582f0e;
+  margin: 0;
+  font-family: "loos-compressed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .titre-carte {
@@ -508,15 +526,30 @@ body {
   font-style: normal;
 }
 
+.gallerie-derive {
+  margin-top: 40px;
+  width: 80%;
+}
 
+.img-derive {
+  width: 100%;
+}
 
+.video {
+  width: 100%;
+}
 
+.nature {
+  background-image: url(img/nature.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
-
-
-
-
-
+.mille {
+  background-image: url(img/1000.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 
 
@@ -933,7 +966,7 @@ body {
 .toutlesprojets {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 10vw;
 }
 
 .img-carte {

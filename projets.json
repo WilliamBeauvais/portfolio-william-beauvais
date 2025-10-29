@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "titre": "La femme",
-    "categorie": "design",
-    "image": "img/la_femme.jpg",
-    "lien": "femme.html"
+    "title": "La femme",
+    "category": "design",
+    "images": "img/la_femme.jpg",
+    "link": "femme.html"
   },
   {
     "id": 2,
@@ -16,7 +16,7 @@
   {
     "id": 3,
     "title": "1000°",
-    "category": "video",
+    "category": "vidéo",
     "images": "img/10002.png",
     "link": "1000.html"
   },
@@ -38,7 +38,7 @@
     "id": 6,
     "title": "Nature Morte",
     "category": "3d",
-    "images": "img/nature.png",
+    "images": "img/nature2.png",
     "link": "nature.html"
   },
   {
