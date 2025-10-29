@@ -127,9 +127,9 @@ body {
 
 .logiciels-anim {
   width: 100%;
-  height: 2px;
-  background: url("img/logiciels.png") repeat-x;
-  animation: scroll-logi 25s linear infinite;
+  height: 50%;
+  background: url("img/logiciels.png");
+  background-repeat: no-repeat;
 }
 
 @keyframes scroll-logi {
